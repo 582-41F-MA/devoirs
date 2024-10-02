@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <script type="module" src="main.js"></script>
+        <title>Devoir 1 : Conférence</title>
+    </head>
+    <body>
+        <h1>Présentations</h1>
+        <form>
+            <fieldset>
+                <legend>Ajouter une présentation</legend>
+                <label>
+                    Titre
+                    <input type="text" name="title" required />
+                </label>
+                <label>
+                    Présentateur·rice
+                    <input type="text" name="speaker" required />
+                </label>
+                <label>
+                    Salle
+                    <select name="room">
+                        <option value="small">Petite</option>
+                        <option value="medium">Moyenne</option>
+                        <option value="large">Grande</option>
+                    </select>
+                </label>
+                <button>Soumettre</button>
+            </fieldset>
+        </form>
+        <table>
+            <thead>
+                <tr>
+                    <th>Titre</th>
+                    <th>Présentateur·rice</th>
+                    <th>Places restantes</th>
+                    <th>Acheter un billet</th>
+                </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+    </body>
+</html>
