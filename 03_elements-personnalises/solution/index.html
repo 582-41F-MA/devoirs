@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="./main.js" type="module"></script>
+    <title>Devoir 3</title>
+  </head>
+  <body>
+    <label>Email</label>
+    <field-validator href="/api/validate/email" delay="500" show-valid>
+      <input type="text" name="email" id="email" />
+    </field-validator>
+    <label>Password</label>
+    <field-validator href="/api/validate/password" delay="500">
+      <input type="text" name="password" id="password" />
+    </field-validator>
+  </body>
+</html>
