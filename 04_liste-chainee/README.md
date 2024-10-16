@@ -42,7 +42,8 @@ référence au même « reste » de la liste.
 2.  La fonction pour créer une paire s'appelle `cons`. Implémentez une
     version JavaScript de `cons` qui, étant donnée une valeur générique
     et soit une autre pair soit `null`, retourne une nouvelle paire. La
-    paire doit être immuable.
+    paire doit être immuable. Le mot-clé `readonly`, lorsque ajouté
+    avant le nom d'une propriété, rend celle-ci immuable.
 
 3.  Concevez des fonctions nommées `first` et `rest` qui, étant donnée
     une paire, retournent respectivement le premier et le second élément
