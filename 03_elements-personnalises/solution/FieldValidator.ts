@@ -45,6 +45,7 @@ export default class FieldValidator extends HTMLElement {
         formData.append(input.name, input.value);
         const options = {
             method: "POST",
+            headers: { "Content-type": "application/x-www-form-urlencoded" },
             body: formData,
         };
         const res = await fetch(this.href, options);
